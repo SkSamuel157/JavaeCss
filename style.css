@@ -1,0 +1,47 @@
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* ************ */
+.imagem img {
+    width: auto;
+    height: 150px;
+}
+
+
+.formas {
+    background: linear-gradient(0deg, #da720a 27%, #2de75e 99%);
+    width: auto;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.formas .forma {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.imagem {
+    background-color: #fdf9f9;
+    border: 1px solid #8CA9CE;
+    border-radius: 7px;
+    text-align: center;
+    padding: 15px 20px;
+    margin: 0 20px;
+    width: 230px;
+    transition: 0.3s ease-in-out;
+}
+
+.imagem:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 15px 1px;
+    background-color: #F1F6FE;
+}
